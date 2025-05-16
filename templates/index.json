@@ -78,8 +78,36 @@
     },
     "new_in_products_QRHJXD": {
       "type": "new-in-products",
+      "blocks": {
+        "product_yaGGJV": {
+          "type": "product",
+          "settings": {
+            "product": "test-001"
+          }
+        },
+        "product_m7pHix": {
+          "type": "product",
+          "settings": {
+            "product": "test-001"
+          }
+        },
+        "product_RrPWGE": {
+          "type": "product",
+          "settings": {
+            "product": "test-001"
+          }
+        }
+      },
+      "block_order": [
+        "product_yaGGJV",
+        "product_m7pHix",
+        "product_RrPWGE"
+      ],
       "name": "New In Products",
-      "settings": {}
+      "settings": {
+        "heading": "New In",
+        "columns": "4"
+      }
     }
   },
   "order": [
