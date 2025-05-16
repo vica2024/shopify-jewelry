@@ -5,8 +5,8 @@
     {% endif %}
 
     <div class="product-grid columns-{{ section.settings.columns }}">
-      {% for product_block in section.blocks %}
-        {% assign product = product_block.settings.product %}
+      {% assign products = section.settings.product %}
+      {% for products in products %}
         {% if product %}
           <div class="product-card">
             <span class="badge">NEW IN</span>
